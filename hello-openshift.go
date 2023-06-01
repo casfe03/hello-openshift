@@ -14,7 +14,7 @@ func hello(w http.ResponseWriter, r *http.Request) {
 		helloEnv = "hello"
 	}
 
-	arg := "openshift: Bom dia Stefanini"
+	arg := "openshift: Bom dia INEP!"
 	if len(os.Args) > 1 {
 		arg = os.Args[1]
 	}
